@@ -114,7 +114,6 @@ let g:ycm_clangd_binary_path = exepath("clangd")
 ""
 let g:ycm_global_ycm_extra_conf = "~/.vim/bundle/YouCompleteMe/.ycm_extra_conf.py"
 
-
 ""############################################################################
 "" INSTANT - MARKDOWN
 "Uncomment to override defaults:
@@ -129,3 +128,45 @@ let g:ycm_global_ycm_extra_conf = "~/.vim/bundle/YouCompleteMe/.ycm_extra_conf.p
 "let g:instant_markdown_port = 8888
 "let g:instant_markdown_python = 1
 ""############################################################################
+"" VISUALIZATION OF TABS AND SPACES
+"set listchars=tab:>-,trail:.,extends:>
+set listchars=tab:¦\ ,trail:…,extends:→
+set list
+
+"use space error indication of syntax files
+let ada_space_errors = 1
+let c_space_errors = 1
+let chill_space_errors = 1
+let csc_space_errors = 1
+let forth_space_errors = 1
+let groovy_space_errors = 1
+let icon_space_errors = 1
+let java_space_errors = 1
+let lpc_space_errors = 1
+let mel_space_errors = 1
+let nqc_space_errors = 1
+let nroff_space_errors = 1
+let ora_space_errors = 1
+let pascal_space_errors = 1
+let plm_space_errors = 1
+let plsql_space_errors = 1
+let python_space_errors = 1
+let ruby_space_errors = 1
+"--------
+""############################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
